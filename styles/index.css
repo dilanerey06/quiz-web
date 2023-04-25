@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+
+.links {
+    padding: 2px 0 2px 18px;
+}
+
+nav {
+    width: 100%;
+    /* background-color: aqua; */
+    border: 1px solid black;
+
+}
+
+.wrap {
+    /* background-color: aliceblue; */
+    width: 80%;
+    margin: 0px auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid black;
+    height: 100vh;
+}
+#main-title{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    /* background-color: aliceblue; */
+    min-width: 40%;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-items: space-evenly;
+    min-height: 10px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* border-collapse: collapse; */
+    /* background-color: salmon; */
+    padding: 8px 0;
+    min-height: 35px;
+}
+
+.row:first-child {
+    font-weight: bold;
+}
+
+.row:not(:last-child) { 
+    border-bottom: 1px solid black;
+}
+
+.col {
+    width: 30%;
+    /* background-color: salmon; */
+}
+
+.table-btn {
+    border-radius: 2px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.table-btn > a {
+    padding: 0px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    /* background-color: aliceblue; */
+    min-width: 40%;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 0;
+    padding-top: 20px;
+}
+
+#input {
+    /* background-color: aliceblue; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#save-btn {
+    padding: 8px 30px;
+    margin: 20px 0;
+    background-color: rgba(144, 238, 144, 0.507);
+    border: 1px solid green;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    /* background-color: aliceblue; */
+    min-width: 40%;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px 0;
+}
+
+
+
+
